@@ -1,0 +1,132 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.contact-container{
+background-color: rgb(154, 26, 154);
+background-color: rgba(154, 26, 154, 0.5); /* The last value (0.5) controls opacity */
+border-radius: 20px; 
+}
+
+.contact-title{
+  color: #ffffff;
+  font-weight: 600;
+  font-family:Agbalumo;
+ text-shadow: #000;
+ transition: transform 0.2s; /* ad transition effect*/
+font-size: 60px;
+}
+
+.contact-content{
+  font-size: 35px;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+
+.social-icons{
+  font-size: 100px;
+}
+
+/* NAVIGATION  */
+.nav-logo{
+  font-family:Agbalumo;
+}
+
+/* VIDEO CARD SECTION  */
+@font-face {
+  font-family: 'Agbalumo',sans-serif; /* Provide a unique name for your font */
+  src: url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:ital,wght@0,600;1,300&display=swap') 
+  format('woff2'); /* Adjust the path to your font file and format */
+}
+/* I can just import fonts, if I want to use them locally, i can to src them locally on my machine **/
+
+
+
+.my-card {
+  background-color: rgba(154, 26, 154, 0.5); /* The last value (0.5) controls opacity */
+    border: 1px solid #ddd;
+    margin-bottom:  50px;
+    padding: 10 10px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add a drop shadow */
+    
+  }
+  
+  .card-title {
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family:Agbalumo;
+   text-shadow: #000;
+   transition: transform 0.2s; /* ad transition effect*/
+  }
+  .card-title:hover {
+    animation: shake 0.5s; /* Apply the shake animation on hover */
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-5px); }
+    40% { transform: translateX(5px); }
+    60% { transform: translateX(-5px); }
+    80% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+  }
+  .card-text {
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: lightpurple; /* Change to your desired background color */
+  padding: 10px;
+  text-shadow: #000;              
+  
+  }
+  
+  .text-muted {
+    font-size: 0.8rem;
+    color: #948f8f;;
+  }
+
+  /*Home Page*/
+
+  .home-container{
+    background-color: rgba(154, 26, 154, 0.5); /* The last value (0.5) controls opacity */
+    border: 1px solid #ddd;
+    margin-bottom:  50px;
+    padding: 10 10px;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .home-title{
+    font-size: 4rem;
+    color: #ffffff;
+    font-weight: 600;
+    font-family:Agbalumo;
+   text-shadow: #000;
+   transition: transform 0.2s; /* ad transition effect*/
+  }
+
+  .home-content{
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: lightpurple; /* Change to your desired background color */
+  padding: 10px;
+  text-shadow: #000;              
+  }
+
